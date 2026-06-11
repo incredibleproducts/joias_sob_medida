@@ -653,3 +653,88 @@ RESPONSIVO
     }
 
 }
+/* =========================
+ICONS
+========================= */
+
+.contact-link{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#0f172a;
+
+    padding:14px 24px;
+
+    border-radius:999px;
+
+    transition:.3s;
+
+}
+
+.contact-link:hover{
+
+    background:#1d4ed8;
+
+}
+
+.contact-link img{
+
+    width:20px;
+
+    height:20px;
+
+    object-fit:contain;
+
+}
+
+/* =========================
+FOOTER ICONS
+========================= */
+
+.footer-item{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:12px;
+
+}
+
+.footer-item img{
+
+    width:18px;
+
+    height:18px;
+
+    object-fit:contain;
+
+}
+
+.footer-item a{
+
+    color:#94a3b8;
+
+    text-decoration:none;
+
+}
+
+.footer-item a:hover{
+
+    color:white;
+
+}
