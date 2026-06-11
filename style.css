@@ -749,3 +749,13 @@ FOOTER ICONS
     drop-shadow(0 0 10px rgba(37,211,102,.3));
 
 }
+
+@media(max-width:600px){
+
+    footer{
+
+        padding-bottom:120px;
+
+    }
+
+}
