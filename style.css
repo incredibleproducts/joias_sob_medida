@@ -93,6 +93,8 @@ HERO
 
     height:500px;
 
+    min-height:500px;
+
 }
 
 .slide{
@@ -111,7 +113,7 @@ HERO
 
     border-radius:25px;
 
-    opacity:0;
+    opacity:1;
 
     transition:opacity 1s ease;
 
@@ -827,4 +829,19 @@ FOOTER ICONS
         padding-bottom:120px;
 
     }
+}
+@media(max-width:900px){
+
+    .slider{
+
+        max-width:350px;
+
+        height:350px;
+
+        min-height:350px;
+
+        margin:auto;
+
+    }
+
 }
