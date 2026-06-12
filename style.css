@@ -749,6 +749,17 @@ FOOTER ICONS
     drop-shadow(0 0 10px rgba(37,211,102,.3));
 
 }
+.loc-icon{
+
+    width:42px !important;
+
+    height:42px !important;
+
+    filter:
+    drop-shadow(0 0 5px rgba(37,211,102,.4))
+    drop-shadow(0 0 10px rgba(37,211,102,.3));
+
+}
 
 @media(max-width:600px){
 
