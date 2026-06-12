@@ -364,7 +364,32 @@ PRODUTOS
 
 .products{
 
+    position:relative;
+
     padding:90px 0;
+
+    background-image:url('loc_amanhecer.png');
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+    .products{
+
+    position:relative;
+
+    padding:90px 0;
+
+    background-image:url('fundojoia.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
 
 }
 
