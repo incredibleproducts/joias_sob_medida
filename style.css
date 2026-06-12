@@ -78,7 +78,11 @@ HERO
 
     flex:1;
 
-    text-align:center;
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
 
 }
 
@@ -770,7 +774,6 @@ FOOTER ICONS
     }
 
 }
-
 .slider{
 
     position:relative;
@@ -781,13 +784,15 @@ FOOTER ICONS
 
     height:500px;
 
-    margin:auto;
-
 }
 
 .slide{
 
     position:absolute;
+
+    top:0;
+
+    left:0;
 
     width:100%;
 
@@ -800,6 +805,9 @@ FOOTER ICONS
     opacity:0;
 
     transition:opacity 1s ease;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.45);
 
 }
 
