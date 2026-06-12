@@ -770,3 +770,41 @@ FOOTER ICONS
     }
 
 }
+
+.slider{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:500px;
+
+    height:500px;
+
+    margin:auto;
+
+}
+
+.slide{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:25px;
+
+    opacity:0;
+
+    transition:opacity 1s ease;
+
+}
+
+.slide.active{
+
+    opacity:1;
+
+}
