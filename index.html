@@ -545,25 +545,27 @@
     </a>
 <script>
 
-const slides = document.querySelectorAll('.slide');
+document.addEventListener("DOMContentLoaded", function(){
 
-let current = 0;
+    const slides = document.querySelectorAll(".slide");
 
-setInterval(() => {
-
-    slides[current].classList.remove('active');
-
-    current++;
-
-    if(current >= slides.length){
-
-        current = 0;
-
+    if(slides.length === 0){
+        return;
     }
 
-    slides[current].classList.add('active');
+    let current = 0;
 
-}, 3000);
+    setInterval(function(){
+
+        slides[current].classList.remove("active");
+
+        current = (current + 1) % slides.length;
+
+        slides[current].classList.add("active");
+
+    }, 3000);
+
+});
 
 </script>
 </body>
