@@ -912,6 +912,22 @@ TÍTULO MOBILE
     }
 
 }
-.mobile-brand{
-    padding:0 15px;
+@media(max-width:600px){
+
+    .section-header{
+
+        padding:0 20px;
+
+    }
+
+    .section-header h2{
+
+        font-size:2rem;
+
+        line-height:1.25;
+
+        word-break:break-word;
+
+    }
+
 }
